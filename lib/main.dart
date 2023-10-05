@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:flutter_application_1/widgets/button.dart";
 import "package:flutter_application_1/widgets/container_sized.dart";
 import "package:flutter_application_1/widgets/rowscols.dart";
 
@@ -14,9 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         brightness: Brightness.light,
-        primaryColor: Colors.deepOrange,
+        primaryColor: Colors.deepPurple,
       ),
-      home: RowCols(),
+      home: Button(),
       debugShowCheckedModeBanner: false,
     );
   }
