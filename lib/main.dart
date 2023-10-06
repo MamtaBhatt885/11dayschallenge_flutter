@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:flutter_application_1/widgets/button.dart";
 import "package:flutter_application_1/widgets/container_sized.dart";
+import "package:flutter_application_1/widgets/list_grid.dart";
 import "package:flutter_application_1/widgets/rowscols.dart";
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple,
       ),
-      home: Button(),
+      home: ListGrid(),
       debugShowCheckedModeBanner: false,
     );
   }
